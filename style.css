@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+.links {
+    list-style: none;
+
+}
+
+.link {
+    display: inline;
+    padding-right: 5px;
+}
+.link a {
+    text-decoration: none;
+    color: #402135;
+    font-size: 20pt;
+}
+.link a:hover {
+    color : rgb(187, 110, 210)
+}
+
+.grid {
+    display              : grid;
+    grid-template-columns: repeat(4, .5fr);
+    grid-gap             : .5em;
+}
+
+.minipets {
+    margin : 0 auto;
+    padding: 0;
+
+}
+
+.minipets>p {
+    text-align: center;
+}
+
+ table,
+ td,
+ td {
+     border: 1px solid #000;
+ }
+
+ th,
+ td {
+    font-family: monospace;
+     text-align: center;
+     margin    : 0;
+     padding   : 5px
+ }
+
+ tr:nth-child(even) {
+     background-color: #DDD;
+ }
+
+ td:first-of-type {
+     border-right: 1px solid #000;
+     text-align  : right;
+ }
+
+ td {
+     font-weight: bold;
+ }
