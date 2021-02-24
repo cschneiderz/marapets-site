@@ -91,8 +91,8 @@ header {
     width:100%;
  }
 
- .magazines > th,
- .magazines > td {
+ .magazines > tr > th,
+ .magazines > tr > td {
     font-family: monospace;
      text-align: center;
      margin    : 0;
