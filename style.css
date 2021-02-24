@@ -83,7 +83,7 @@ header {
 }
 
  .magazines ,
-  td {
+ .magazine td {
      border: 1px solid #000;
  }
 
@@ -104,7 +104,6 @@ header {
  }
 
  td:first-of-type {
-     border-right: 1px solid #000;
      text-align  : right;
  }
 
