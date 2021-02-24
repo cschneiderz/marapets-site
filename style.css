@@ -67,6 +67,9 @@ header {
     padding: 0;
 
 }
+.minipets img  {
+    margin: 0 auto;
+}
 
 .container {
     margin: 0 auto;
