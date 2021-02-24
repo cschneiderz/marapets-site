@@ -1,6 +1,37 @@
-body {
-    margin: 0;
-    padding: 0;
+html {
+    box-sizing: border-box;
+    font-size : 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin     : 0;
+    padding    : 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height   : auto;
 }
 
 header {
@@ -37,18 +68,31 @@ header {
 
 }
 
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+.subtitle {
+    margin-bottom: 10px;
+    border-bottom: 1px double #402135;
+    width: 100%;
+}
+
 .minipets>p {
     text-align: center;
 }
 
- table,
- td,
- td {
+ .magazines ,
+  td {
      border: 1px solid #000;
  }
 
- th,
- td {
+ .magazines {
+    width:100%;
+ }
+
+ .magazines > th,
+ .magazines > td {
     font-family: monospace;
      text-align: center;
      margin    : 0;
