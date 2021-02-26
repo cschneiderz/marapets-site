@@ -86,7 +86,8 @@ header {
 }
 
  .magazines ,
- .magazine td {
+ .magazine td , 
+ .plates, .plates td{
      border: 1px solid #000;
  }
 
@@ -95,7 +96,8 @@ header {
  }
 
  .magazines th,
- .magazines td {
+ .magazines td , plates th,
+ .plates td {
     font-family: monospace;
      text-align: center;
      margin    : 0;
@@ -112,4 +114,11 @@ header {
 
  td {
      font-weight: bold;
+ }
+
+ .complete {
+     color: #12522a;
+ }
+ .incomplete {
+     color: rgb(164, 27, 27);
  }
