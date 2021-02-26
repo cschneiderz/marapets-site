@@ -85,9 +85,9 @@ header {
     text-align: center;
 }
 
- .magazines ,
- .magazine td , 
- .plates, .plates td{
+ .magazines , .magazine td , 
+ .plates, .plates td,
+ .newspapers, .newpapers td{
      border: 1px solid #000;
  }
 
@@ -95,9 +95,9 @@ header {
     width:100%;
  }
 
- .magazines th,
- .magazines td , plates th,
- .plates td {
+ .magazines th, .magazines td , 
+ plates th,.plates td ,
+ .newspapers th, .newspapers td {
     font-family: monospace;
      text-align: center;
      margin    : 0;
