@@ -85,13 +85,13 @@ header {
     text-align: center;
 }
 
- .magazines , .magazine td , 
+ .magazines , .magazines td , 
  .plates, .plates td,
- .newspapers, .newpapers td{
+ .newspapers, .newspapers td{
      border: 1px solid #000;
  }
 
- .magazines , .newspapers {
+ .magazines , .newspapers , .plates {
     width:100%;
  }
 
