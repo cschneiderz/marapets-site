@@ -91,7 +91,7 @@ header {
      border: 1px solid #000;
  }
 
- .magazines {
+ .magazines , .newspapers {
     width:100%;
  }
 
