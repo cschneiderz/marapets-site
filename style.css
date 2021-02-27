@@ -38,6 +38,9 @@ header {
     width: 100%;
     text-align: center;
 }
+body {
+    background-color: #555;
+}
 .links {
     list-style: none;
 
