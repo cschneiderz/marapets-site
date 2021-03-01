@@ -14,7 +14,7 @@
   width: 100%;
 }
 
-.plates, .plates td, .newspapers, .newspapers td, magazines, magazines td {
+.plates, .plates td, .newspapers, .newspapers td, .magazines, .magazines td {
   border: 1px solid #000;
 }
 
